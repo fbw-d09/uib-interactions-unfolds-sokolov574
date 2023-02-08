@@ -15,40 +15,19 @@
         width: 40px;
         height: 40px;
         margin: 0 auto;
-        border: 2px solid green;
+        /* border: 2px solid green; */
     }
 
-  /*   h1:hover
-    {
-        border: 2px solid green;
-    } */
-
-
-
-
-
 .box0 {
+    /* border: 2px solid red; */
     position: absolute;
     left: 0;
     right: 0;
-    border: 2px solid red;
     width: 50rem;
     height: 25rem;
     margin: 0 auto;
     
 }
-
-
-
-/* main
-{
-    left: 0;
-    right: 0;
-    transition: transform 250ms;
-} */
-
-
-
 
 .box1
 {
@@ -59,15 +38,8 @@
     height: 200px;
     transition: 1s;
     transform-origin: top left;
-    /* transform: rotate(90deg); */
-
 }
 
-.box1:hover
-{
-    transform: rotate(90deg);
-    margin-right: 400px;
-}
 
 .box2
 {
@@ -79,7 +51,7 @@
     height: 200px;
     transition: 1s;
     transform-origin: top right;
-    /* transform: rotate(-90deg); */
+    
 }
 
 
@@ -95,14 +67,9 @@
     height: 200px;
     transition: 1s;
     transform-origin: bottom right;
-    /* transform: rotate(90deg); */
+   
 }
-.box3:hover
-{
-    transform: rotate(90deg);
-}
-
-
+ 
 
 .box4
 {
@@ -115,13 +82,28 @@
     height: 200px;
     transition: 1s;
     transform-origin: bottom left;
-   /*  transform: rotate(-90deg); */
+   
 }
-.box4:hover
+ 
+
+main:hover .box1
+
+{
+    transform: rotate(90deg);
+ 
+}
+main:hover .box2
 {
     transform: rotate(-90deg);
-    margin-right: 400px;
-    padding-top: 200px;
-  
-   
+ 
+}
+main:hover .box3
+{
+    transform: rotate(90deg);
+ 
+}
+main:hover .box4
+{
+    transform: rotate(-90deg);
+ 
 }
