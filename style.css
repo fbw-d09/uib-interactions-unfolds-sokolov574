@@ -1,0 +1,109 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+    h1
+    {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        left: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        /* border: 2px solid green; */
+    }
+
+.box0 {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50rem;
+    height: 25rem;
+    margin: 0 auto;
+    
+}
+
+.box1
+{
+    position: absolute;
+    left: 200px;
+    background-color: steelblue;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform-origin: top left;
+}
+
+
+.box2
+{
+    position: absolute;
+    left: 400px;
+    background-color: dimgray;
+    
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform-origin: top right;
+    
+}
+
+
+
+.box3
+{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-color: rosybrown;
+  
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform-origin: bottom right;
+   
+}
+ 
+
+.box4
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: yellow;
+    
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    transform-origin: bottom left;
+   
+}
+ 
+
+main:hover .box1
+
+{
+    transform: rotate(90deg);
+ 
+}
+main:hover .box2
+{
+    transform: rotate(-90deg);
+ 
+}
+main:hover .box3
+{
+    transform: rotate(90deg);
+ 
+}
+main:hover .box4
+{
+    transform: rotate(-90deg);
+ 
+}
